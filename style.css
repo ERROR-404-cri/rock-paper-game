@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: teal;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+}
+
+#container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#player {
+    float: left;
+}
+
+#player span,
+#computer span {
+    display: block;
+}
+
+#computer {
+    float: right;
+}
+
+#clear {
+    display: none;
+    clear: both;
+}
+
+h1 {
+    text-align: center;
+    clear: both;
+    padding: 15px;
+}
+
+#game-dashBoard {
+    text-align: center;
+}
+
+#game-play {
+    display: none;
+}
+
+.hands {
+    font-size: 100px;
+}
+
+#pImage {
+    position: relative;
+    float: left;
+}
+
+#cImage {
+    position: relative;
+    float: right;
+}
+
+#options {
+    clear: both;
+}
+
+#options button {
+    margin: 70px 0;
+    margin-right: 50px;
+    font-size: 20px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    /* text-transform: capitalize; */
+}
